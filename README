@@ -1,0 +1,72 @@
+=============
+> twitshell <
+=============
+
+The application twitshell is an Command Line Interactive (CLI) application
+written to communicate with the twitter API. This application would be
+particularly useful for users or administrators who do not wish to run a
+window manager or desktop manager and wish to update their twitter via the
+command line. However, in order to set up the authorization you will need
+a browser to get the key codes to connect to your account.
+
+================
+> Dependencies <
+================
+
+The following dependencies required to run the twitshell application includes:
+- rubygems
+- twitter
+
+================
+> Installation <
+================
+
+This README document is intended for users that are using a Linux based operating
+system. Installations are strictly done through the command line and any other
+method of installation will need to be consulted by the corresponding systems
+documentation. All commands will be written between quotes: ''
+
+To install rubygems different commands will be used due to different package
+management systems.
+
+----------
+- Ubuntu -
+----------
+
+Due to the mass use of Ubuntu in the Linux community documentation will be provided.
+For installation of "rubygems" you will need to run the following command:
+
+'sudo apt-get install rubygems'
+
+--------------
+- Arch Linux -
+--------------
+
+Most users using the Arch Linux operating system most likely will not need the following
+documentation in order to install the dependencies. However, with the great amount of
+documentation that does already consist I will provide some just for the beauty of the
+repository.
+
+You must run the following command to install "rubygems"
+
+'sudo pacman -S rubygems'
+
+---------------
+- Twitter API -
+---------------
+
+In order to use the application to work with twitter you must install the rubygem 'twitter'.
+to install the gem you must type the following command:
+
+'sudo gem install twitter'
+
+------------
+- Optional -
+------------
+
+After installing "rubygems" and "twitter" you will have installed all of the necessary
+dependencies in order to run the twitshell application. However, it is optional to
+change the permissions of the "Shell.rb" file so that it can be executable. In order
+to do so you must run the following command:
+
+'sudo chmod 755 Shell.rb'
